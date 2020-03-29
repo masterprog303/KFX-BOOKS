@@ -1,0 +1,239 @@
+/* Start Main RuleZ */
+
+body
+{
+    background:#DDD;
+    direction: rtl;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    line-height: 2em;
+    cursor:default;
+   
+}
+
+.container
+{
+    width:940px;
+    margin:20px auto;
+    background:#FFF;
+     
+}
+
+a:link    { color: black; }
+a:visited { color: black; }
+
+h3
+{
+    color: #DDD
+}
+
+ul,ol
+{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+li:hover
+{
+    color: #8EB4FF;
+    cursor: pointer;
+}
+
+/* End Main RuleZ */
+
+/* Start Header */
+
+header
+{
+    min-height:100px;
+    background:#3E63E8;
+    overflow: hidden;
+    text-align: center;
+}
+
+header .logo
+{ 
+    width:25%;
+    float:right;
+}
+
+header .logo img
+{
+    width: 100px;
+    margin: 20px 10px 0px 0
+    
+}
+
+header nav
+{
+    width:75%;
+    float: left;
+}
+
+header nav ul
+{
+    margin: 50px 50px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+header nav ul li
+{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: #555;
+    color: #DDD
+    
+}
+
+/* End Header */
+
+
+/* Start Content */
+
+.content
+{
+    min-height: 500px;
+    background: #BBB;
+    overflow: hidden
+}
+
+.content .sidebar
+{
+    float:right;
+    width:25%;
+    margin-left: 1%;
+    background:#BBB;
+}
+
+.content .sidebar .widget
+{
+    width: 90%;
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin: 10px auto;
+}
+
+.content .sidebar .widget .title
+{
+    background: #222;
+    color: #FFF;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.content .sidebar .widget .data
+{
+    text-align: center;
+    padding: 5px 0;
+}
+
+/*START SOCIAL MEDIA COLORS ICON */
+
+.fab.fa-facebook-square.fa-3x:hover {color: #3E5C9A}
+.fab.fa-instagram-square.fa-3x:hover {color: #770100}
+.fab.fa-twitter.fa-3x:hover {color: #2AA9E0}
+.fab.fa-youtube.fa-3x:hover {color: #FF011D}
+.fab.fa-whatsapp.fa-3x:hover {color: #00E676}
+.fab.fa-discord.fa-3x:hover {color: #7289DA}
+
+/*END SOCIAL MEDIA COLORS ICON */
+
+.content .sidebar .widget .data ul
+{
+    text-align: right
+}
+
+.content .sidebar .widget .data ul li
+{
+    padding-right: 10px;
+
+}
+
+.content .sidebar .widget .data img
+{
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+.content .sidebar .widget i
+{
+    display: block
+}
+
+.content .books
+{
+    float:left;
+    width: 74%;
+    background: #F1F1F1;
+    padding: 20px 0 20px 0
+    
+}
+
+.content .books .book
+{
+    width:21%;
+    float: right;
+    background: #FFF;
+    text-align: center;
+    margin-top:30px;
+    margin:1%;
+    padding: .5%;
+    border: 2px solid #000B66
+    
+}
+
+.content .books .book img
+{
+    max-width: 100%;
+}
+
+.content .books .book span
+{
+   
+}
+
+/* End Content */
+
+/* Start Footer */
+
+footer
+{
+    min-height: 100px;
+    background: #CCC;
+    text-align: center;
+}
+
+footer .info
+{
+    background: #676767;
+    overflow: hidden;
+}
+
+footer .info .box
+{
+    width: 30%;
+    float:right;
+    margin-left: 3%;
+}
+
+footer .info h3
+{
+    border-bottom: 2px solid #DDD;
+    padding: 10px;
+}
+
+footer .info ul
+{
+    margin: 10px 10px 0 0;
+}
+
+footer .copyright
+{
+    background: #333;
+    padding: 10px 0;
+    color: 
+}
+/* Footer */
